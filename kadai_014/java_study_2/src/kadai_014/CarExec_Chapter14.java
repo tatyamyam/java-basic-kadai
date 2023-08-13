@@ -12,6 +12,7 @@ public class CarExec_Chapter14 {
 		
 		//車クラスのrunメソッドを実行する
 		car.run();
+		
 
 	}
 

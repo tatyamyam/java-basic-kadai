@@ -14,24 +14,25 @@ public class Car_Chapter14 {
 	//②車クラスは次のメソッドを持つ
 	public void run() {
 		gear = 3;
+		int[] speedArray = {10, 20, 30, 40, 50};
 		switch(gear) {
 		case 1:
-			System.out.println("速度は時速は10kmです");
+			System.out.println("速度は時速" + speed + "です");
 			break;
 		case 2:
-			System.out.println("速度は時速は20kmです");
+			System.out.println("速度は時速" + speedArray[1] + "kmです");
 			break;
 		case 3:
-			System.out.println("速度は時速は30kmです");
+			System.out.println("速度は時速" + speedArray[2] + "kmです");
 			break;
 		case 4:
-			System.out.println("速度は時速は40kmです");
+			System.out.println("速度は時速" + speedArray[3] + "kmです");
 			break;
 		case 5:
-			System.out.println("速度は時速は50kmです");
+			System.out.println("速度は時速" + speedArray[4] + "kmです");
 			break;
 		default :
-			System.out.println("速度は時速10kmです");
+			System.out.println("速度は時速" + speedArray[0] + "kmです");
 		}
 		
 	}
